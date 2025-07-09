@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --brand-color: #8b90ff;
   --base-color: #f2f4f8;
@@ -15,7 +14,6 @@
   --base-transparent-90: rgba(247, 247, 247, 0.9);
   --base-transparent-100: rgba(247, 247, 247, 1);
 }
-
 .dark-theme {
   --brand-color: #8b90ff;
   --base-color: #1e1f26;
@@ -25,7 +23,6 @@
   --base-transparent-90: rgba(30, 31, 38, 0.9);
   --base-transparent-100: rgba(30, 31, 38, 1);
 }
-
 body {
   font-family: Poppins, sans-serif;
   margin: 2rem;

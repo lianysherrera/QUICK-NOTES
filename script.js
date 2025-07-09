@@ -14,7 +14,6 @@ function saveNote(event) {
 
   if(editingNoteId) {
     // Update existing Note
-
     const noteIndex = notes.findIndex(note => note.id === editingNoteId)
     notes[noteIndex] = {
       ...notes[noteIndex],
